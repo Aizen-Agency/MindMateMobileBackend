@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables file
+.env
+*.env
+
+# Flask instance folder and config
+instance/
+config.py
+
+# Logs
+*.log
+*.out
+*.err
+logs/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Database files
+*.sqlite3
+*.db
+
+# Static files
+/staticfiles/
+*.static/
+
+# Cache and other generated files
+*.cache
+.cache/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+test_output/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+coverage.xml
+
+# Celery files
+celerybeat-schedule
+
+# dotenv
+*.env.local
+*.env.development
+*.env.production
+*.env.test
